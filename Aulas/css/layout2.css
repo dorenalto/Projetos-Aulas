@@ -1,0 +1,37 @@
+div {
+	border:1px solid black;
+	
+}
+p   { 
+    text-align:justify;
+}
+#container {
+	
+	width:600px;
+	margin: 0 auto;
+	text-align:center;
+   
+	
+}
+#header {
+	height:80px;
+	background:#DDDDDD;
+	text-align:center;
+
+}
+
+#left {
+	height:290px;
+	float:left;
+	width:130px;
+	background:#666666;
+	text-align:left;
+}
+#content {
+	float:right;
+	width:450px;
+}
+#footer {
+	clear:both;
+	background:#DDDDDD;
+}

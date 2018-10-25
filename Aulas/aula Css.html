@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+  <head>
+
+      <title> Menu </title>
+<style  type="text/css" href="css/estilo.css" media="all">
+    ul {
+		padding:0;
+		margin:0;
+		list-style:none;
+	}
+	li {
+		border:1px solid black;
+		width:120px;
+		padding:3px;
+		position:relative;
+	}
+	li:hover {
+			  background-color:black;
+			  color:white;
+	}		  
+	li > ul {
+			 position:absolute; 
+			 left:126px;
+			 color:black;
+			 top:-1px;
+			 
+			 }
+</style>
+<script type="text/javascript" src="css/js/jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("#menu li ul").hide();
+	$("#menu li").hover(
+	function() {$(this).children("ul").show();},
+	function() {$(this).children("ul").hide();}
+	
+	);
+});
+
+</script>
+
+  </head>
+
+  <body> 
+		<ul id="menu">
+
+			<li>Home</li>
+			<li>Soluçoes</li>
+			<li>Indústria
+				<ul>
+					<li>Financeira</li>
+					<li>Comunicação</li>
+					<li>Educação</li>
+					<li>Energia
+					<ul>
+						<li>Elétrica</li>
+						<li>Eólica</li>
+						<li>Hidráulica</li>
+						<li>Fóssil</li>
+						<li>Solar</li>
+					</ul>	
+					</li>
+					<li>Governo</li>
+				</ul>
+			</li>
+			<li>Cases</li>
+			<li>Contato</li>
+
+		</ul>  	
+
+  </body>
+
+
+
+
+</html>

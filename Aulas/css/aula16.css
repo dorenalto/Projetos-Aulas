@@ -1,0 +1,28 @@
+div
+{
+	margin:100pt auto; 
+	width: 1000px; 
+	text-align:center;
+		
+}
+#topo 
+{
+	
+	background:url("../img/cinebaladinha.jpg");
+	width:700px;
+	background-image:url("../img/cinebaladinha.jpg");
+	height:180px;
+	border:2px solid black;
+    margin-left:0 auto;
+    margin-top:0 auto;
+	text-align:center;
+	}
+	}
+h1 
+{ 
+width:220px;
+margin-left:390pt;
+margin-top:10pt;
+	
+	
+}

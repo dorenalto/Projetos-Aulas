@@ -1,0 +1,22 @@
+body
+{
+	background-color:#6699ff;
+    background-image:url("../img/cris.jpg");
+	background-repeat:no-repeat;
+	background-position:left-side;
+}
+
+
+	div
+	{
+		
+		
+		width:320px;
+		height:320px;
+		border:2px solid black;
+		
+		background-color:#6699ff;
+		background-image:url("../img/cris.jpg");
+		background-attachment:scroll;
+	}
+

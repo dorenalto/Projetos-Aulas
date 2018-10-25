@@ -1,0 +1,19 @@
+*  { 
+
+margin:1; 
+
+color:#006699;
+
+}
+
+.destaque{ color:#cc0000;}
+.detalhe{text-decoration:underline;}
+#introducao{ background-color:#ffcc33}
+
+em[title=empresa]{ 
+color:#336600;
+font-size:30px;
+}
+
+p { color:#0000cc}
+h1 {font-family:"Comic Sans MS";}

@@ -1,0 +1,17 @@
+
+
+table, link{
+			width:165px; margin: 0 auto;
+}
+img {margin:0 auto;}
+fieldset   { 
+			width:140px; margin: 0 auto;
+
+}
+label      {
+			display:block; float:left;
+}
+label, input {
+			width:68px; margin:3px 0;
+}
+th, td { border:1px solid #ccc; font-size:0.8em;}

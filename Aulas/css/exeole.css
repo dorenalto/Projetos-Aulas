@@ -1,0 +1,36 @@
+ol {
+counter-reset:h3; /* Inicia o contador */      
+margin-left:0; /* Remove margin padrão */      
+padding-left:0; /* Remove padding padrão */  
+}  
+
+ol > h3 {      
+position:relative; /* Cria contexto de posicionamento */      
+margin:0 0 6px 2em; /* margem para abrir espaço para a numeração */      
+padding:4px 8px; /* Espaçamento em volta do conteúdo */      
+list-style:none; /* retira a numeração padrãao (o marcador da lista) */      
+border-top:2px solid #666;      
+background:#f6f6f6;  
+}  
+
+ol > li.subtitulo {      
+content:counter(li.subtitulo); /* Define um contador como conteúdo */      
+counter-increment:li; /* Incrementa o contador de 1 */      
+/* Posicionamento e estilização do número */     
+ position:absolute;      
+ top:-2px;      
+ left:-2em;      
+ -moz-box-sizing:border-box;     
+ -webkit-box-sizing:border-box;      
+ box-sizing:border-box;      
+ width:2em;      /* Espaçamento entre número e texto em navegadores que suportam conteúdo gerado, ams não o posicionam(Camino 2 por exemplo) */      
+ margin-right:8px;      
+ padding:4px;      
+ border-top:2px solid #666;      
+ color:#fff;      
+ background:#666;      
+ font-weight:bold;      
+ font-family:"Helvetica Neue", Arial, sans-serif;      
+ text-align:center;  
+ }  
+ 

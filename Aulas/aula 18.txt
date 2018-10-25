@@ -1,0 +1,10 @@
+<html>
+	<head>	
+		<title> XHTML Aula 18 </title>
+	</head>
+	
+	<body> 
+		<form action="aula 18.html">
+	</body>
+	
+</html>
